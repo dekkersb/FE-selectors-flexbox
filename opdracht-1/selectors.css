@@ -4,7 +4,7 @@
 
 /* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */
 
-#img {
+#headerImage {
     width: 100%;
 }
 
@@ -31,20 +31,27 @@ a:hover {
 
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 
-.main a {
+main a:hover {
     color: blue;
 }
-
+main a:visited {
+    color: blueviolet;
+}
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 
-
-
+input[type="submit"]{
+    background-color: hsl(110, 29%, 52%);
+}
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
-
+input:focus[type="text"]{
+    border: 2px solid blue;
+}
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
 
-
+h1, h2, h3 {
+    font-family: Bree Serif, serif;
+}
