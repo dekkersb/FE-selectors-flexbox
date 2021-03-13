@@ -52,6 +52,8 @@ input:focus[type="text"]{
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 h1, h2, h3 {
-    font-family: Bree Serif, serif;
+    font-family: 'Bree Serif', serif;
 }
